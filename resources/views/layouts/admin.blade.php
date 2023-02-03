@@ -56,6 +56,7 @@
 
         <ul class="nav navbar-nav mr-auto">
                 <li class="nav-item dropdown">
+                
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       {{ trans('panel.views') }}
                     </a>
@@ -100,6 +101,7 @@
     </header>
 
     <div class="app-body">
+    
         @include('partials.menu')
         <main class="main">
 

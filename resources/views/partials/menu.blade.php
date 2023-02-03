@@ -8,6 +8,7 @@
                 </select>
             </li>
             <li class="nav-item">
+                
                 <a href='{{ route("admin.home") }}' class="nav-link">
                     <i class="nav-icon fas fa-fw fa-tachometer-alt">
 
@@ -15,7 +16,7 @@
                     {{ trans('global.dashboard') }}
                 </a>
             </li>
-
+<!--
             @can('ecosystem_access')
                 <li class="nav-item nav-dropdown">
                     <a class="nav-link  nav-dropdown-toggle" href="#">
@@ -31,7 +32,7 @@
                                     <i class="fa-fw fas fa-align-justify nav-icon">
 
                                     </i>
-                                    {{ trans('cruds.entity.title') }}
+                                  --   {{ trans('cruds.entity.title') }} --
                                 </a>
                             </li>
                         @endcan
@@ -47,7 +48,7 @@
                         @endcan
                     </ul>
                 </li>
-            @endcan
+            @endcan --
             @can('metier_access')
                 <li class="nav-item nav-dropdown">
                     <a class="nav-link  nav-dropdown-toggle" href="#">
@@ -139,7 +140,7 @@
                         @endcan
                     </ul>
                 </li>
-            @endcan
+            @endcan -->
             @can('application_access')
                 <li class="nav-item nav-dropdown">
                     <a class="nav-link  nav-dropdown-toggle" href="#">
@@ -216,7 +217,7 @@
                     </ul>
                 </li>
             @endcan
-            @can('administration_access')
+            <!-- @can('administration_access')
                 <li class="nav-item nav-dropdown">
                     <a class="nav-link  nav-dropdown-toggle" href="#">
                         <i class="fa-fw fas fa-folder nav-icon">
@@ -267,7 +268,7 @@
                         @endcan
                     </ul>
                 </li>
-            @endcan
+            @endcan -->
             @can('infrastructure_access')
                 <li class="nav-item nav-dropdown">
                     <a class="nav-link  nav-dropdown-toggle" href="#">

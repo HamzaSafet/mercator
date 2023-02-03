@@ -6,8 +6,10 @@
             <div class="card">
                 <div class="card-header">
                     {!! trans("panel.maturity_levels") !!}
+ 
                 </div>
                 <div class="card-body">
+                
                     <table>
                         <tr>
                             <td align="center">

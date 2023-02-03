@@ -76,3 +76,4 @@ All notable changes to this project are [documented](https://github.com/dbarzin/
 
 Mercator is an open source software distributed under [GPL](https://www.gnu.org/licenses/licenses.html).
 
+# mercator
